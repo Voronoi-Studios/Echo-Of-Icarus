@@ -1,4 +1,8 @@
 Echo.name=Echo of Icarus
-Echo.description=This fragment might bring you to a long dorment Mazee\n<b>This instance was added by png.GridWaveExamples</b>
+Echo.description=<i>We were the first to resist and the first to fall. Warriors, to save the world. Yet the power of evils were too great. We were banished to purgatory, to these ever-shifting lands. The gods instructed Daedalus to build this prison to contain the most unimaginable evils of the land. Yet that contraption was weaponized against the gods, turned to hold us, the very warriors hoping to protect the realms.</i>\n\n\n\
+"Entering this maze, you've agreed to voluntarily enter into the Maze and brave the evil that lives there. You will help us establish a base and clense a segment of the labyrinth, helping us to explore, expand, and escape."\n\
+<b>- Unknown Author</b>\n\n\
+Goal: <color is ="#fff700">Defeat the bosses at the top floor of the maze</color>\n\
+
 Echo.tip1=<color is="#0572c0">It's not as it seems</color>
 

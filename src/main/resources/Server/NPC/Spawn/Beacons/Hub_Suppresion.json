@@ -20,7 +20,7 @@
   "TargetDistanceFromPlayer": 24,
   "SpawnRadius": 24,
   "BeaconRadius": 30,
-  "SpawnSuppression": "hub_Zone",
+  "SpawnSuppression": "Hub_Zone",
   "OverrideSpawnSuppressors": false,
   "NPCSpawnState": "Idle",
   "NPCs": [
