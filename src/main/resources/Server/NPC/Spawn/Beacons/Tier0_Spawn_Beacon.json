@@ -1,0 +1,44 @@
+{
+  "Environments": [
+    "Tier0_Environment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Archer_Echo"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Fighter_Echo"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Frost_Fighter_Echo"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Frost_Scout_Echo"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 8,
+  "NPCIdleDespawnTime": 70,
+  "SpawnAfterGameTimeRange": [
+    "PT50S",
+    "PT2M50S"
+  ],
+  "NPCSpawnState": "Idle",
+  "ConcurrentSpawnsRange": [
+    6,
+    8
+  ],
+  "MinDistanceFromPlayer": 24,
+  "TargetDistanceFromPlayer": 40,
+  "SpawnRadius": 60,
+  "BeaconRadius": 30,
+  "BeaconVacantDespawnGameTime": "PT7M",
+  "NPCSpawnSubState": ".WanderAway"
+}

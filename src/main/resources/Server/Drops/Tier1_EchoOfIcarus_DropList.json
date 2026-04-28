@@ -1,0 +1,155 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Potion_Health_Small",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 50,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Food_Cheese",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 10,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Food_Pie_Pumpkin",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 50,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Food_Kebab_Fruit",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 12,
+        "Containers": [
+          {
+            "Weight": 16,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Copper"
+            }
+          },
+          {
+            "Weight": 16,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Daggers_Copper"
+            }
+          },
+          {
+            "Weight": 16,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Longsword_Copper"
+            }
+          },
+          {
+            "Weight": 16,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Sword_Copper"
+            }
+          },
+          {
+            "Weight": 16,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Wand_Wood_Rotten"
+            }
+          },
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Sword_Steel_Rusty"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Armor_Copper_Head"
+            }
+          },
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Armor_Copper_Chest"
+            }
+          },
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Armor_Copper_Legs"
+            }
+          },
+          {
+            "Weight": 25,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Armor_Copper_Hands"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "I_EOI_Bronze_Coin",
+              "QuantityMin": 3,
+              "QuantityMax": 15
+            },
+            "Weight": 19
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "I_EOI_Silver_Coin",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            },
+            "Weight": 1
+          }
+        ],
+        "Weight": 100
+      }
+    ]
+  }
+}

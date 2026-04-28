@@ -1,0 +1,16 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Dungeon_Chest_Epic",
+      "Weight": 80,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Tier4_EchoOfIcarus_DropList"
+          }
+        }
+      },
+      "RotationMode": "Inherit"
+    }
+  ]
+}

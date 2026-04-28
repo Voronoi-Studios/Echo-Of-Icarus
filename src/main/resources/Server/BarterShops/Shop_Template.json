@@ -1,0 +1,65 @@
+{
+  "DisplayNameKey": "Weapons Shop",
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Head"
+        },
+        "Input": [
+          {
+            "ItemId": "Gold_Pile_Echo",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Chest"
+        },
+        "Input": [
+          {
+            "ItemId": "Gold_Pile_Echo",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Legs"
+        },
+        "Input": [
+          {
+            "ItemId": "Gold_Pile_Echo",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Hands"
+        },
+        "Input": [
+          {
+            "ItemId": "Gold_Pile_Echo",
+            "Quantity": 30
+          }
+        ]
+      }
+    }
+  ],
+  "RestockHour": 1,
+  "RefreshInterval": {
+    "Days": 1
+  }
+}

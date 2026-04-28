@@ -1,0 +1,25 @@
+{
+  "Interactions": [
+    {
+      "Type": "Command",
+      "Command": "say try",
+      "Next": {
+        "Type": "EffectCondition",
+        "EntityEffectIds": [
+          "Door_Key"
+        ],
+        "Match": "All",
+        "Failed": {
+          "Type": "Command",
+          "Command": "say failed"
+        },
+        "Entity": "User",
+        "Next": {
+          "Type": "Command",
+          "Command": "say yes",
+          "Next": "Furniture_Maze_Door_Test"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "Gold Coin"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Scrap",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Ores/Items/Coin/I_Coin.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ores/Items/Coin/I_EOI_Coin_Gold.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Coins",
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "RandomRotation": "YawStep1",
+    "ParticleColor": "#ffd848",
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "Color": "#ffce76",
+        "TargetEntityPart": "Entity"
+      }
+    ],
+    "HitboxType": "Rubble",
+    "CubeShadingMode": "Reflective"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      331,
+      227,
+      327
+    ],
+    "Translation": [
+      -1,
+      -2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "I_EOI_Silver_Coin",
+        "Quantity": 100
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Fieldcraft",
+        "Categories": [
+          "Tools"
+        ]
+      }
+    ],
+    "KnowledgeRequired": false
+  },
+  "Icon": "Icons/ItemsGenerated/I_EOI_Gold_Coin.png"
+}

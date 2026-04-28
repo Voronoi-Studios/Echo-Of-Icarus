@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "Silver Key"
+  },
+  "Icon": "Icons/ItemsGenerated/Door_Key_Floor3.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Fieldcraft",
+        "Categories": [
+          "Tools"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "I_EOI_Silver_Coin",
+        "Quantity": 1000
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Ores/Items/Keys/Key.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ores/Items/Keys/Iron_Key.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "HitboxType": "Window",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#828282",
+    "BlockSoundSetId": "Metal",
+    "CubeShadingMode": "Reflective"
+  },
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2,
+    "Rotation": [
+      77,
+      302,
+      32
+    ],
+    "Translation": [
+      6,
+      12
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Interactions": {
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Door_Key_Floor3",
+          "Next": "UseBlock"
+        }
+      ]
+    }
+  }
+}

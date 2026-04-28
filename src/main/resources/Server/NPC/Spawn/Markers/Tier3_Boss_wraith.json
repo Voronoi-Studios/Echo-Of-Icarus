@@ -1,0 +1,14 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Wraith_Echo_Tier3",
+      "Weight": 100,
+      "RealtimeRespawnTime": 100
+    }
+  ],
+  "ExclusionRadius": 16,
+  "RealtimeRespawn": true,
+  "MaxDropHeight": 4,
+  "DeactivationDistance": 50
+}

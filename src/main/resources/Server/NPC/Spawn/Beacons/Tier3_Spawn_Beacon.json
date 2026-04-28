@@ -1,0 +1,43 @@
+{
+  "Environments": [
+    "Tier3_Environment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Burnt_Wizard_Echo_Tier3"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Incandescent_Fighter_Echo_Tier3"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Incandescent_Footman_Echo_Tier3"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Incandescent_Mage_Echo_Tier3"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 16,
+  "NPCIdleDespawnTime": 30,
+  "SpawnAfterGameTimeRange": [
+    "PT5M",
+    "PT10M"
+  ],
+  "NPCSpawnState": "Chase",
+  "ConcurrentSpawnsRange": [
+    1,
+    4
+  ],
+  "MinDistanceFromPlayer": 16,
+  "TargetDistanceFromPlayer": 24,
+  "SpawnRadius": 16,
+  "BeaconRadius": 20,
+  "BeaconVacantDespawnGameTime": "PT20M"
+}

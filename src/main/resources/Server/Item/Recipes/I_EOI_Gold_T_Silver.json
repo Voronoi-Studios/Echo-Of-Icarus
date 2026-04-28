@@ -1,0 +1,21 @@
+{
+  "Input": [
+    {
+      "ItemId": "I_EOI_Gold_Coin",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "I_EOI_Silver_Coin",
+    "Quantity": 100
+  },
+  "TimeSeconds": 1,
+  "BenchRequirement": [
+    {
+      "Id": "Fieldcraft",
+      "Categories": [
+        "Tools"
+      ]
+    }
+  ]
+}

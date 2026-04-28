@@ -1,0 +1,289 @@
+{
+  "DisplayNameKey": "Weapon Shop",
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Battleaxe_Crude"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Daggers_Crude"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Longsword_Crude"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Sword_Crude"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Staff_Cane"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Battleaxe_Copper"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Daggers_Copper"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Longsword_Copper"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Sword_Copper"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Shield_Copper"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Battleaxe_Iron"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Daggers_Iron"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Longsword_Iron"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Sword_Iron"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Shield_Iron"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Battleaxe_Cobalt"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Daggers_Cobalt"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Longsword_Cobalt"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Sword_Cobalt"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Weapon_Shield_Cobalt"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 50
+          }
+        ]
+      }
+    }
+  ],
+  "RestockHour": 1,
+  "RefreshInterval": {
+    "Days": 1
+  }
+}

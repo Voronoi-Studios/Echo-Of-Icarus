@@ -1,0 +1,29 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Skeleton_Incandescent_Mage_Echo_Tier3",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Incandescent_Footman_Echo_Tier3",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Incandescent_Fighter_Echo_Tier3",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Burnt_Wizard_Echo_Tier3",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    }
+  ],
+  "ExclusionRadius": 16,
+  "RealtimeRespawn": true,
+  "MaxDropHeight": 4,
+  "DeactivationDistance": 50
+}

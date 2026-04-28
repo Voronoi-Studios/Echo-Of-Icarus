@@ -1,0 +1,36 @@
+{
+  "Environments": [
+    "Boss_Environment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 20,
+      "Id": "Skeleton_Burnt_Wizard_Echo_Tier3"
+    },
+    {
+      "Weight": 20,
+      "Id": "Skeleton_Incandescent_Mage_Echo_Tier3"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 20,
+  "NPCIdleDespawnTime": 70,
+  "NPCSpawnState": "Idle",
+  "ConcurrentSpawnsRange": [
+    18,
+    20
+  ],
+  "MinDistanceFromPlayer": 20,
+  "TargetDistanceFromPlayer": 30,
+  "SpawnRadius": 40,
+  "BeaconRadius": 60,
+  "BeaconVacantDespawnGameTime": "PT20M",
+  "NPCSpawnSubState": ".WanderAway",
+  "SpawnAfterRealTimeRange": [
+    "PT60M",
+    "PT100M"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Skeleton_Knight_Echo_Tier1",
+      "Weight": 40,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Weight": 17,
+      "RealtimeRespawnTime": 100,
+      "Name": "Skeleton_Mage_Echo_Tier1"
+    },
+    {
+      "Weight": 17,
+      "RealtimeRespawnTime": 100,
+      "Name": "Skeleton_Ranger_Echo_Tier1"
+    },
+    {
+      "Weight": 26,
+      "RealtimeRespawnTime": 100,
+      "Name": "Skeleton_Soldier_Echo_Tier1"
+    }
+  ],
+  "ExclusionRadius": 16,
+  "RealtimeRespawn": true,
+  "MaxDropHeight": 4,
+  "DeactivationDistance": 50
+}

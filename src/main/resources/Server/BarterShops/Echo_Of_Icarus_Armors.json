@@ -1,0 +1,237 @@
+{
+  "DisplayNameKey": "Armor Shop",
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Leather_Light_Head",
+          "Quantity": 1
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 99
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Leather_Light_Chest",
+          "Quantity": 1
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 99
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Leather_Light_Hands",
+          "Quantity": 1
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 99
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Leather_Light_Legs",
+          "Quantity": 1
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Bronze_Coin",
+            "Quantity": 99
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Copper_Head"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Copper_Chest"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Copper_Legs"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Copper_Hands"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Silver_Coin",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Iron_Head"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Iron_Chest"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Iron_Legs"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Iron_Hands"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Head"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Chest"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Legs"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Armor_Cobalt_Hands"
+        },
+        "Input": [
+          {
+            "ItemId": "I_EOI_Gold_Coin",
+            "Quantity": 30
+          }
+        ]
+      }
+    }
+  ],
+  "RestockHour": 1,
+  "RefreshInterval": {
+    "Days": 1
+  }
+}

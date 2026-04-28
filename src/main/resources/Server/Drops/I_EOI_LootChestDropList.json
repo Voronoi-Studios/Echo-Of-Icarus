@@ -1,0 +1,43 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Weight": 5,
+        "Item": {
+          "ItemId": "Ingredient_Bar_Prisma",
+          "QuantityMin": 2,
+          "QuantityMax": 4
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 10,
+        "Item": {
+          "ItemId": "Ingredient_Bar_Adamantite",
+          "QuantityMin": 2,
+          "QuantityMax": 6
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 40,
+        "Item": {
+          "ItemId": "Ingredient_Bar_Gold",
+          "QuantityMin": 4,
+          "QuantityMax": 8
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 60,
+        "Item": {
+          "ItemId": "Ingredient_Bar_Iron",
+          "QuantityMin": 4,
+          "QuantityMax": 10
+        }
+      }
+    ]
+  }
+}

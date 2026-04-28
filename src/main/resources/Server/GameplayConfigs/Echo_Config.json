@@ -1,0 +1,29 @@
+{
+  "World": {
+    "AllowBlockBreaking": false,
+    "AllowBlockGathering": false,
+    "AllowBlockPlacement": false
+  },
+  "WorldMap": {
+    "DisplaySpawn": false,
+    "DisplayHome": false,
+    "DisplayWarps": false,
+    "DisplayDeathMarker": false,
+    "DisplayPlayers": true,
+    "UserMapMarkers": {
+      "AllowCreatingMarkers": true,
+      "MaxPersonalMarkersPerPlayer": 1,
+      "MaxSharedMarkersPerPlayer": 1,
+      "AllowDeletingOtherPlayersSharedMarkers": true
+    }
+  },
+  "Death": {
+    "RespawnController": {
+      "Type": "ExitInstance"
+    },
+    "ItemsLossMode": "None"
+  },
+  "Combat": {
+    "DisplayHealthBars": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Environments": [
+    "Tier1_Environment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 10,
+      "Id": "Skeleton_Knight_Echo_Tier1"
+    },
+    {
+      "Weight": 4,
+      "Id": "Skeleton_Mage_Echo_Tier1"
+    },
+    {
+      "Weight": 6,
+      "Id": "Skeleton_Ranger_Echo_Tier1"
+    },
+    {
+      "Weight": 8,
+      "Id": "Skeleton_Soldier_Echo_Tier1"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 10,
+  "NPCIdleDespawnTime": 70,
+  "SpawnAfterGameTimeRange": [
+    "PT50S",
+    "PT2M50S"
+  ],
+  "NPCSpawnState": "Idle",
+  "ConcurrentSpawnsRange": [
+    6,
+    10
+  ],
+  "MinDistanceFromPlayer": 24,
+  "TargetDistanceFromPlayer": 40,
+  "SpawnRadius": 60,
+  "BeaconRadius": 30,
+  "BeaconVacantDespawnGameTime": "PT7M",
+  "NPCSpawnSubState": ".WanderAway"
+}

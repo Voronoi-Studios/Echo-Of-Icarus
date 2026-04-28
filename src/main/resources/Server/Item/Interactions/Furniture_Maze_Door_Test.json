@@ -1,0 +1,13 @@
+{
+  "Type": "Door",
+  "Effects": {
+    "ItemAnimationId": "Interact"
+  },
+  "Horizontal": false,
+  "Next": {
+    "Type": "ApplyForce",
+    "Direction": {
+      "Y": 10
+    }
+  }
+}

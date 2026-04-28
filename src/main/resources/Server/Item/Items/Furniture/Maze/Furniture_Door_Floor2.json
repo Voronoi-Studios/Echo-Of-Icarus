@@ -1,0 +1,101 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Temple_Dark_Door_Medium.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Doors"
+  ],
+  "Set": "Furniture_Human_Ruins",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      0,
+      183,
+      80
+    ],
+    "Translation": [
+      -22.8,
+      -52.2
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Furniture_Maze_Door_Test",
+    "Material": "Solid",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "Furniture_Door_FloorOpen",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "Opacity": "Solid",
+          "InteractionHitboxType": "Furniture_Maze_Door_Test",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "InteractionHitboxType": "Furniture_Maze_Door_Test",
+          "HitboxType": "Furniture_Door_FloorOpen",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Stone",
+    "InteractionHint": "server.interactionHints.openDoor",
+    "IsDoor": true,
+    "ParticleColor": "#474f4c",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "EffectCondition",
+            "EntityEffectIds": [
+              "Door_Key_Floor2"
+            ],
+            "Next": "Furniture_Maze_Door_Test"
+          }
+        ]
+      }
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Maze/Door/I_T_DungeonDoor_02.png"
+      }
+    ],
+    "CustomModel": "Blocks/Decorative_Sets/Maze/Door/I_DungeonDoor.blockymodel",
+    "CustomModelScale": 1.02,
+    "RequiresAlphaBlending": false
+  },
+  "Scale": 0.2,
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "$Comment": "",
+  "Icon": "Icons/ItemsGenerated/Furniture_Maze_Door_Test.png",
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

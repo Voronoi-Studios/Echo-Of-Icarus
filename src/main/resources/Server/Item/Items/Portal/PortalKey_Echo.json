@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "Echo.items.PortalKey_Echo.name",
+    "Description": "Echo.items.PortalKey_Echo.description"
+  },
+  "Icon": "Icons/ItemsGenerated/PortalKey_Echo.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "PortalKey": {
+    "PortalType": "PortalType_Echo",
+    "TimeLimitSeconds": 1000000
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Resources/Ores/Items/Icarus Totem.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ores/Items/IcarusTotem_Texture2.png",
+        "Weight": 1
+      }
+    ],
+    "CubeShadingMode": "Reflective",
+    "RequiresAlphaBlending": false
+  },
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Feathers_Light",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 5
+      },
+      {
+        "Quantity": 20,
+        "ResourceTypeId": "Rock"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Portal",
+      "Temporary"
+    ]
+  },
+  "Quality": "Artifact",
+  "ItemLevel": 51,
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      341,
+      153,
+      0
+    ],
+    "Translation": [
+      1,
+      -8
+    ]
+  }
+}

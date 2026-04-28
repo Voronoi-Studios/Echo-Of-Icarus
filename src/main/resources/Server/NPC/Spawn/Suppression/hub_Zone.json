@@ -1,0 +1,7 @@
+{
+  "SuppressionRadius": 10,
+  "SuppressSpawnMarkers": true,
+  "SuppressedGroups": [
+    "Skeleton"
+  ]
+}

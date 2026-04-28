@@ -1,0 +1,133 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent_Warrior_CloseRange",
+  "Parameters": {
+    "WanderRadius": {
+      "Value": 7,
+      "Description": "General wander radius for idle wander and wander on the break."
+    },
+    "AttackPauseRange": {
+      "Value": [
+        0.5,
+        1
+      ]
+    },
+    "CombatStrafeWeight": {
+      "Value": 2,
+      "Description": "Cancels strafing if value is 0"
+    },
+    "CombatAlwaysMovingWeight": {
+      "Value": 6,
+      "Description": "Charge At player"
+    },
+    "CombatBackOffAfterAttack": {
+      "Value": true,
+      "Description": "Whether to backoff after an attack "
+    },
+    "CombatBackOffDistanceRange": {
+      "Value": [
+        2,
+        3
+      ]
+    },
+    "CombatBackOffDurationRange": {
+      "Value": [
+        0.5,
+        1
+      ],
+      "Description": "How long to back off for after performing an attack."
+    },
+    "FollowPatrolPath": {
+      "Value": true,
+      "Description": "Whether this NPC will follow patrol paths at all."
+    },
+    "Patrol": {
+      "Value": true,
+      "Description": "Whether or not this NPC will patrol during its waking hours, either alone or as part of a group."
+    },
+    "FlockArray": {
+      "Value": [
+        "Skeleton_Incandescent_Fighter_Echo_Tier3",
+        "Skeleton_Burnt_Wizard_Echo_Tier3",
+        "Skeleton_Incandescent_Footman_Echo_Tier3",
+        "Skeleton_Incandescent_Mage_Echo_Tier3"
+      ],
+      "TypeHint": "String",
+      "Description": "Array containing NPCs for this flock type."
+    },
+    "ApplySeparation": {
+      "Value": false,
+      "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Skeleton_Incandescent_Footman.name",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 130,
+    "HearingRange": 8,
+    "ViewSector": 180,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Tier3_EchoOfIcarus_DropList",
+    "Appearance": "Skeleton_Incandescent_Footman",
+    "Weapons": [
+      "Weapon_Spear_Double_Incandescent"
+    ],
+    "FlockArray": {
+      "Compute": "FlockArray"
+    },
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "WanderRadius": {
+      "Compute": "WanderRadius"
+    },
+    "AttackPauseRange": {
+      "Compute": "AttackPauseRange"
+    },
+    "CombatStrafeWeight": {
+      "Compute": "CombatStrafeWeight"
+    },
+    "CombatAlwaysMovingWeight": {
+      "Compute": "CombatAlwaysMovingWeight"
+    },
+    "CombatBackOffAfterAttack": {
+      "Compute": "CombatBackOffAfterAttack"
+    },
+    "CombatBackOffDistanceRange": {
+      "Compute": "CombatBackOffDistanceRange"
+    },
+    "CombatBackOffDurationRange": {
+      "Compute": "CombatBackOffDurationRange"
+    },
+    "Attack": "Root_NPC_Skeleton_Incandescent_Footman_Attack_Echo",
+    "AttackDistance": 2,
+    "DesiredAttackDistanceRange": [
+      1.5,
+      1.5
+    ],
+    "CombatMessageTargetGroups": [
+      "Skeleton"
+    ],
+    "ApplySeparation": {
+      "Compute": "ApplySeparation"
+    },
+    "_CombatConfig": {
+      "EntityEffect": "Immunity_Fire"
+    },
+    "IsMemory": true,
+    "MemoriesCategory": "Undead",
+    "MemoriesNameOverride": "Skeleton_Incandescent_Footman",
+    "BreathesInWater": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  }
+}

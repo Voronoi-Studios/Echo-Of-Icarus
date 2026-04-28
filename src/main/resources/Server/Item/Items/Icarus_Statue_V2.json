@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "Icarus Statue V2"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Furniture_Human",
+  "Icon": "Icons/ItemsGenerated/Icarus_Statue_V2.png",
+  "IconProperties": {
+    "Scale": 0.264,
+    "Rotation": [
+      8,
+      1,
+      6
+    ],
+    "Translation": [
+      3,
+      -69
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/Icarus_Statue_V2.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Statue_Lobby_V2.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Statue_Icarus",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#ecece4"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "MaxStack": 1,
+  "ItemLevel": 0
+}

@@ -1,0 +1,31 @@
+{
+  "Environments": [
+    "Hub_Environment"
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 1,
+  "MinDistanceFromPlayer": 3,
+  "TargetDistanceFromPlayer": 25,
+  "SpawnRadius": 28,
+  "BeaconRadius": 34,
+  "NPCs": [
+    {
+      "Id": "Merchant_Weapons",
+      "Weight": 100,
+      "SpawnBlockSet": "Wood"
+    }
+  ],
+  "OverrideSpawnSuppressors": true,
+  "BeaconVacantDespawnGameTime": "PT10M",
+  "ConcurrentSpawnsRange": [
+    0,
+    1
+  ],
+  "SpawnAfterRealTimeRange": [
+    "PT1S",
+    "PT10S"
+  ]
+}

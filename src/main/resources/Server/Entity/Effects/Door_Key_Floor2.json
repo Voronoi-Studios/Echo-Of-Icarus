@@ -1,0 +1,7 @@
+{
+  "RemovalBehavior": "Infinite",
+  "Duration": 1,
+  "Debuff": false,
+  "Infinite": false,
+  "StatusEffectIcon": "Icons/ItemsGenerated/Door_Key_Floor2.png"
+}

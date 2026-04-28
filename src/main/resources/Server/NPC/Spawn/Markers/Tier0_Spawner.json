@@ -1,0 +1,29 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Skeleton_Fighter_Echo",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Archer_Echo",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Frost_Fighter_Echo",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Frost_Scout_Echo",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    }
+  ],
+  "ExclusionRadius": 16,
+  "RealtimeRespawn": true,
+  "MaxDropHeight": 4,
+  "DeactivationDistance": 50
+}

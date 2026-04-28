@@ -1,0 +1,12 @@
+{
+  "InstanceId": "Echo_Of_Icarus",
+  "Description": {
+    "DisplayName": "Echo.portals.Echo.name",
+    "FlavorText": "Echo.portals.Echo.description",
+    "ThemeColor": "#fff89b",
+    "Tips": [
+      "Echo.portals.Echo.tip1"
+    ],
+    "SplashImage": "CustomArtwork.png"
+  }
+}

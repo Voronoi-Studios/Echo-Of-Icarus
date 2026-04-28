@@ -1,0 +1,153 @@
+{
+  "WaterTint": "#2076b5",
+  "SpawnDensity": 0.8,
+  "Tags": {
+    "Zone0": []
+  },
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Echo",
+        "Weight": 0
+      }
+    ]
+  }
+}

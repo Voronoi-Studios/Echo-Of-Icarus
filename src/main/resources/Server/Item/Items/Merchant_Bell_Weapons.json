@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "Mercant Bell Weapons",
+    "Description": "Weapons"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Resources/Ores/Items/Bell/BellTexture.png"
+      }
+    ],
+    "Group": "Props",
+    "HitboxType": "Plant_Large",
+    "Flags": {
+      "IsStackable": false
+    },
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Metal",
+    "CustomModelScale": 1,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "SpawnNPC",
+            "EntityId": "Merchant_Weapons",
+            "SpawnOffset": {
+              "X": 1
+            },
+            "Effects": {
+              "WorldSoundEventId": "Mercant_Bell"
+            }
+          }
+        ]
+      }
+    },
+    "ParticleColor": "#ffd50e",
+    "CustomModel": "Resources/Ores/Items/Bell/I_Bell.blockymodel",
+    "InteractionSoundEventId": "SFX_Gem_Break"
+  },
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      16,
+      68,
+      32
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Mercant_Bell.png",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

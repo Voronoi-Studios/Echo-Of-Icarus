@@ -1,0 +1,31 @@
+{
+  "Environments": [
+    "Boss_Environment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 100,
+      "Id": "Wraith_Echo_Tier3"
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 4,
+  "NPCIdleDespawnTime": 30,
+  "NPCSpawnState": "Chase",
+  "ConcurrentSpawnsRange": [
+    1,
+    4
+  ],
+  "MinDistanceFromPlayer": 3,
+  "TargetDistanceFromPlayer": 10,
+  "SpawnRadius": 16,
+  "BeaconRadius": 20,
+  "BeaconVacantDespawnGameTime": "PT20M",
+  "SpawnAfterRealTimeRange": [
+    "PT60M",
+    "PT100M"
+  ]
+}

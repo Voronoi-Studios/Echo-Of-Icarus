@@ -1,0 +1,33 @@
+{
+  "Environments": [
+    "Hub_Environment"
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "MaxSpawnedNPCs": 6,
+  "NPCIdleDespawnTime": 1,
+  "SpawnAfterGameTimeRange": [
+    "PT60M",
+    "PT60M"
+  ],
+  "ConcurrentSpawnsRange": [
+    1,
+    1
+  ],
+  "MinDistanceFromPlayer": 6,
+  "TargetDistanceFromPlayer": 24,
+  "SpawnRadius": 24,
+  "BeaconRadius": 30,
+  "SpawnSuppression": "hub_Zone",
+  "OverrideSpawnSuppressors": false,
+  "NPCSpawnState": "Idle",
+  "NPCs": [
+    {
+      "Id": "Crab",
+      "Weight": 0.001,
+      "SpawnFluidTag": "Water"
+    }
+  ]
+}

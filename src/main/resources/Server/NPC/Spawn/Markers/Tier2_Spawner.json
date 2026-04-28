@@ -1,0 +1,29 @@
+{
+  "Model": "NPC_Spawn_Marker",
+  "NPCs": [
+    {
+      "Name": "Skeleton_Burnt_Alchemist_Echo_Tier2",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Burnt_Knight_Echo_Tier2",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Burnt_Praetorian_Echo_Tier2",
+      "Weight": 30,
+      "RealtimeRespawnTime": 100
+    },
+    {
+      "Name": "Skeleton_Burnt_Soldier_Echo_Tier2",
+      "Weight": 20,
+      "RealtimeRespawnTime": 100
+    }
+  ],
+  "ExclusionRadius": 16,
+  "RealtimeRespawn": true,
+  "MaxDropHeight": 4,
+  "DeactivationDistance": 50
+}

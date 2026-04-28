@@ -10,7 +10,11 @@
   ],
   "Website": "${plugin_website}",
   "ServerVersion": "${server_version}",
-  "Dependencies": {},
+  "Dependencies": {
+    "voronoi:GridWave": "",
+    "Hytale:NPC": "",
+    "Hytale:Shop": ""
+  },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,
