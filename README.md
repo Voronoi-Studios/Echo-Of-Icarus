@@ -1,3 +1,4 @@
+<img width="800" height="281" alt="Mercant" src="https://github.com/user-attachments/assets/02853b21-0b78-4fd1-acee-dd7b458d5925" />
 # Hytale Plugin Template
 
 A template for Hytale java plugins. Created by [Up](https://github.com/UpcraftLP), and slightly modified by Kaupenjoe. 
